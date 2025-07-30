@@ -288,9 +288,10 @@ strings to concatenate them.
 Lox allows chaining of the logical NOT operator. This means you can write expressions like:
 
 ```lox
-!!!!true // evaluates to true
-!!!false // evaluates to true
-!!false  // evaluates to false
+!!!!true; // evaluates to true
+!!!false; // evaluates to true
+!!false;  // evaluates to false
+```
 
 ### Comparison and equality
 
